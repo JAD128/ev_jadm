@@ -13,6 +13,8 @@ public class CourseRequest {
     private String description;
     private int credits;
 
+    private Long instructorId;
+
     // Getters y Setters
     public String getName() { return name; }
     public void setName(String name) { this.name = name; }
@@ -22,4 +24,7 @@ public class CourseRequest {
 
     public int getCredits() { return credits; }
     public void setCredits(int credits) { this.credits = credits; }
+
+    public Long getInstructorId(){return instructorId;}
+    public void setInstructorId(Long instructorId){this.instructorId = instructorId;}
 }
